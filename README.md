@@ -1,3 +1,10 @@
+# Some required tools
+
+https://jsonviewer.stack.hu/
+We can review the structure of the Json file store.json, as JsonViewer.PNG
+
+The table are build through the gema "Terminal Table"
+
 # Music CLImax
 
 MusicCLImax is a command-line interface application that lets you store your
@@ -24,7 +31,7 @@ $ ruby main.rb
 | 2  | Rock en español | Lo mejor del rock de los 80's | 2 Songs |
 +----+-----------------+-------------------------------+---------+
 create | show ID | update ID | delete ID | exit
-> 
+>
 ```
 
 When the user types `create`, the program asks for a name and description for
@@ -45,7 +52,7 @@ Description: The best from Korean superstars
 | 3  | K-Pop           | The best from Korean superstars | 0 Songs |
 +----+-----------------+---------------------------------+---------+
 create | show ID | update ID | delete ID | exit
-> 
+>
 ```
 
 When the user types `update [ID]` where `[ID]` is a valid playlist ID, the
@@ -55,7 +62,7 @@ the previous value will be preserved.
 ```bash
 > update 3
 Name: K-Pop Hits
-Description: 
+Description:
 +----+-----------------+---------------------------------+---------+
 |                             MusiCLI                              |
 +----+-----------------+---------------------------------+---------+
@@ -66,7 +73,7 @@ Description:
 | 3  | K-Pop Hits      | The best from Korean superstars | 0 Songs |
 +----+-----------------+---------------------------------+---------+
 create | show ID | update ID | delete ID | exit
-> 
+>
 ```
 
 When the user types `delete [ID]` where `[ID]` is a valid playlist ID, the
@@ -83,7 +90,7 @@ program will delete the playlist.
 | 2  | Rock en español | Lo mejor del rock en español | 2 Songs |
 +----+-----------------+------------------------------+---------+
 create | show ID | update ID | delete ID | exit
-> 
+>
 ```
 
 When the user types `show [ID]` where `[ID]` is a valid playlist ID, the program
@@ -104,7 +111,7 @@ and prompts the user to type an action.
 | 3  | Llorarás            | Oscar de León               | Oscar D' León en México | 1998     |
 +----+---------------------+-----------------------------+-------------------------+----------+
 create | update ID | delete ID | back
-> 
+>
 ```
 
 When the user types `create`, the program asks for the title, artists, album,
@@ -129,7 +136,7 @@ Released: 1978
 | 6  | Pedro Navaja        | Ruben Blades,  Willie Colon | Siembra                 | 1978     |
 +----+---------------------+-----------------------------+-------------------------+----------+
 create | update ID | delete ID | back
-> 
+>
 ```
 
 When the user types `update [ID]` where `[ID]` is a valid song ID, the program
@@ -138,10 +145,10 @@ be preserved.
 
 ```bash
 > update 6
-Title: 
+Title:
 Artists: Rubén Blades, Willie Colón
-Album: 
-Released: 
+Album:
+Released:
 +----+---------------------+-----------------------------+-------------------------+----------+
 |                                            Salsa                                            |
 +----+---------------------+-----------------------------+-------------------------+----------+
@@ -153,7 +160,7 @@ Released:
 | 6  | Pedro Navaja        | Rubén Blades,  Willie Colón | Siembra                 | 1978     |
 +----+---------------------+-----------------------------+-------------------------+----------+
 create | update ID | delete ID | back
-> 
+>
 ```
 
 When the user types `delete [ID]` where `[ID]` is a valid song ID, the program
@@ -171,7 +178,7 @@ will delete the song.
 | 3  | Llorarás            | Oscar de León               | Oscar D' León en México | 1998     |
 +----+---------------------+-----------------------------+-------------------------+----------+
 create | update ID | delete ID | back
-> 
+>
 ```
 
 When the user types `back` the program shows the playlist screen again.
@@ -187,7 +194,7 @@ When the user types `back` the program shows the playlist screen again.
 | 2  | Rock en español | Lo mejor del rock en español | 2 Songs |
 +----+-----------------+------------------------------+---------+
 create | show ID | update ID | delete ID | exit
-> 
+>
 ```
 
 Finally, when the user types `exit` the program prints 'Goodbye!' and quits.
@@ -195,5 +202,5 @@ Finally, when the user types `exit` the program prints 'Goodbye!' and quits.
 ```bash
 > exit
 Goodbye!
-$ 
+$
 ```
